@@ -1,0 +1,12 @@
+[package]
+name = "iso_maker"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+dirs = "6.0.0"
+iced = { version = "0.13.1", features = ["tokio"] }
+nusb = "0.1.13"
+rfd = { version = "0.15.3" }
+sysinfo = {version = "0.34.2", features = ["disk"] }
+tokio = { version = "1.44.2", features = ["fs", "io-util", "sync", "macros"] }
